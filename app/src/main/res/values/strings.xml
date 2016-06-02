@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAppHome07B</string>
+    <string name="strZero">---</string>
+    <string name="strIntA">I am intent-A</string>
+    <string name="strIntB">I am intent-B</string>
+
+</resources>

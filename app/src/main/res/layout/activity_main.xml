@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nik.myapphome07b.MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/strZero" />
+
+    <TextView
+        android:id="@+id/textSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strZero"
+        android:textSize="20sp"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/buttonFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="First"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="Second"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:text="Reset"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
